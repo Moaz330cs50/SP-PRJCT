@@ -78,7 +78,7 @@ void recordAttendance() {
     cout << "Enter days absent: ";
     cin >> a.DaysAbsent;
     attendanceRecords[attCount] = a; 
-    /* same type of struct,so that's fine to intialize one of em to the other, even if it's array to variable */
+    /* same type of struct,so that's fine to assign one of em to the other, even if it's array to variable */
     attCount++;
     cout << "Done.\n";
 }
