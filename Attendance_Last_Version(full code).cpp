@@ -14,7 +14,7 @@ int empcount = 5;
 int attCount = 0;
 void recordAttendance();
 void editAttendance();
-void showAttendance();
+void showAttendanceAdmin();
 void startAttendance();
 int main() {
     employees[0] = {1, "Ahmed"};
@@ -103,7 +103,7 @@ void editAttendance() {
     cout << "Not found!,entered ID/month is wrong!\n";
     return;
 }
-void showAttendance() {
+void showAttendanceAdmin() {
     int id;
     cout << "Enter employee ID: ";
     cin >> id;
